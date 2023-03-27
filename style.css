@@ -1,0 +1,125 @@
+
+ .themed-page {
+    padding-top: 10px;
+    padding-bottom: 15px;
+    background: #F5DCE0;
+ }
+
+.shop-header{
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gallery-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.mini-gallery-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    max-width: 310px;
+    border: 2px solid pink;
+    margin: 10px;
+    border-radius: 8px;
+
+}
+
+.mini-gallery-image img {
+    width: 300px;
+    max-height: auto;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+ul.menu-list {
+    list-style-type: none;
+}
+
+.page-background {
+    background-color:cornsilk;
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5em;
+}
+
+.coffee-nav .nav-link:hover {
+    background-color: cornsilk;
+}
+
+.coffee-nav .active {
+    background-color: cornsilk;
+}
+
+footer .container-fluid {
+    background: white;
+}
+h1 {
+    text-align: center;
+    color: #555;
+    margin-top: 30px;
+}
+table {
+    margin: 30px auto;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
+}
+      th, td {
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ccc;
+      }
+      th {
+        background-color: orchid;
+        color: #fff;
+      }
+      tr:nth-child(even) {
+        background-color: #f2f2f2;
+}
+ h1{
+    color: white;
+    font-size: 40px;
+    padding-top: 35px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    letter-spacing: 0.3em;
+    background-color: #EFC1C7;
+}
+h2 {
+    color: white;
+    font: Source+Code+Pro;
+    padding-top: 300px;
+    padding-right: 100px;
+}
+.head {
+    background-color: #EFC1C7;
+    padding-top: 1px;
+ }
+.body {
+    background-color: #EFC1C7;
+    padding-top: 1px;
+ }
+.div.gallery-container {
+    background-color:#FFF2E3;
+}
+ div {
+    background-color: #EFC1C7;
+}
+.img {
+    padding-top: 2px;
+}
+p {
+    color: white;
+}
+.div.gallery-container {
+    background-color: #FFF2E3;
+}
