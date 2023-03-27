@@ -61,30 +61,33 @@ ul.menu-list {
 footer .container-fluid {
     background: white;
 }
-h1 {
+
+.opening-times h1 {
     text-align: center;
     color: #555;
     margin-top: 30px;
 }
-table {
+.opening-times table {
     margin: 30px auto;
     border-collapse: collapse;
     border: 1px solid #ccc;
     box-shadow: 2px 2px 5px rgba(0,0,0,0.3);
 }
-      th, td {
-        padding: 12px;
-        text-align: center;
-        border: 1px solid #ccc;
-      }
-      th {
-        background-color: orchid;
-        color: #fff;
-      }
-      tr:nth-child(even) {
-        background-color: #f2f2f2;
+.opening-times th, .opening-times td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ccc;
 }
- h1{
+.opening-times th {
+    background-color: orchid;
+    color: #fff;
+}
+.opening-times tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+ .home h1{
     color: white;
     font-size: 40px;
     padding-top: 35px;
@@ -94,7 +97,7 @@ table {
     letter-spacing: 0.3em;
     background-color: #EFC1C7;
 }
-h2 {
+.home h2 {
     color: white;
     font: Source+Code+Pro;
     padding-top: 300px;
@@ -111,13 +114,13 @@ h2 {
 .div.gallery-container {
     background-color:#FFF2E3;
 }
- div {
+.home div {
     background-color: #EFC1C7;
 }
 .img {
     padding-top: 2px;
 }
-p {
+.home p {
     color: white;
 }
 .div.gallery-container {
