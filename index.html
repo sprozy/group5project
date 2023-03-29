@@ -1,57 +1,49 @@
 <!DOCTYPE html>
 <html>
-
 <head>
+
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-  <link href="style.css" rel="stylesheet" type="text/css">
+  <link href="stylesheet.css" rel="stylesheet" type = "text/css">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
     crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&family=Oswald&family=Source+Code+Pro:ital@0;1&display=swap"
-    rel="stylesheet">
-  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&family=Oswald&family=Source+Code+Pro:ital@0;1&display=swap" rel="stylesheet">
+
+ <!-- ==== NAV BAR (BOOTSTRAP) ===== -->
+    <!-- use the "fixed-top" bootstrap class to fix the nav bar to the top of page.
+         BUT, remember to add enough padding to the top of the <body> -->
+
+          <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+          <!-- ==== END NAV BAR ===== -->
+
 </head>
 
-  <body class="themed-page home">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container">
-        <a class="navbar-brand" href="#">CFG COFFEE SHOP</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav coffee-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./menu.html">Menu</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="./opening-times.html">Opening Times</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled"></a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+<body> 
+  <body class="themed-page">
     <div class="shop-header">
-      <!---Shop name heading-->
-      <center>
-        <h1>Cwtch<br>Coffee</h1>
-        <title>Cwtch Coffee</title>
-      </center>
-      <!---First section-->
+<!---Shop name heading-->
+  <center>
+  <h1>Cwtch<br>Coffee</h1>
+  <title>Cwtch Coffee</title>
+  </center>  
+
+
+    <!---First section-->
       <div class="row">
         <div class="col">
           <div style="text-align: left;"></div>
@@ -63,50 +55,74 @@
           <button type="button">Our Menu</button>
         </div>
       </div>
-      <!---Second section - menu -->
-      <div
-        style="font-size: 15pt; font-weight: bold; color: mediumvioletred; text-align: center; letter-spacing: 0.1cm; padding-bottom: 5px; background-color: #FFF2E3;">
-        <h3>On the Menu</h3>
-      </div>
-      <div class="gallery-container">
-        <!---3 image gallery-->
-      </div>
-      <div class="row">
-        <div class="col">
-          <div class="mini-gallery-image">
-            <img src="https://cdn.th3rdwave.coffee/processed/merchants/20vDGHl594lpHiHydxk54lmuyVG.jpg/128x128i_2x.jpg">
-          </div>
-        </div>
-        <div class="col">
-          <div class="mini-gallery-image">
-            <img
-              src="https://hungerstation.com/_next/image?url=https%3A%2F%2Fhsaa.hsobjects.com%2Fh%2Fmenuitems%2Fimages%2F014%2F134%2F694%2Fe324a75499e26e68e8d1d43a2a79d06c-size1200.jpeg&w=256&q=75">
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="mini-gallery-image">
-        <img src="https://cdn140.picsart.com/300167782018201.png?type=webp&to=crop&r=256">
-      </div>
-    </div>
-    <div>
-  </body>
-  <!---Contact section-->
-  <div style="font-size: 20pt; font-weight: bold; color: white; text-align: center;">
-    <p>Come and find us...<br></p>
-    <div style="font-size: 20pt; font-weight: bold; color: white; text-align: center; padding-bottom: 15px;">
-      <p>
-        Cwtch Coffee <br>
-        72 Kimberley Road <br>
-        Cardiff CF23 5DN <br>
-        <br>
-        02920647827<br>
-        <br>
-        hello@cwtchcoffee.com
-      </p>
-    </div>
-  </div>
-</body>
 
-</html>
+    <!---3 image gallery-->
+    <div class="gallery-container">
+      
+
+        <!-- Define the Bootstrap container and margin at the top is number 6 -->
+  <div class="container mt-6">
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center"> SWEET TREATS </MENU>
+        </h1>
+      </div>
+    </div>
+    <div class="row">
+      <!-- 
+        Target medium browser window sizes so when it's small like a phone each column is listed after 
+        each other on the page, and when bigger they are side by side
+      -->
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title">Freshly Ground Coffee</p>
+            <p class="card-text">
+            <ul class="menu-list">
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title">All Day Breakfast</p>
+            <p class="card-text">
+            <ul class="menu-list">
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card" style="width: 18rem;">
+          <img src="3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title">Divine Desserts</p>
+            <p class="card-text">
+            <ul class="menu-list">
+            </ul>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row mt-3">
+
+<!---Contact section-->
+<div class="row">
+  <div class="col">
+    <div style="text-align: left; padding-left: 30px;"></div>
+    <h2> Cwtch Coffee <br>
+      72 Kimberley Road <br>
+      Cardiff CF23 5DN  </h2>
+    <p>hello@cwtchcoffee.com</p>
+  </div>
+  <div class="col">
+    <div style="text-align: right;"></div>
+    <img src="cafe.png" width="700" height="800">
+  </div>
+</div>
