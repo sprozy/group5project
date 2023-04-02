@@ -4,22 +4,11 @@
 <head>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">  
   <link href="style.css" rel="stylesheet" type="text/css">
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"></script>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Noticia+Text:ital@1&family=Oswald&family=Source+Code+Pro:ital@0;1&display=swap"
-    rel="stylesheet">
-  
 </head>
 
-  <body class="themed-page home">
+  <body class="page-background">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
         <a class="navbar-brand" href="#">CFG COFFEE SHOP</a>
@@ -45,45 +34,36 @@
         </div>
       </div>
     </nav>
-    <div class="shop-header">
-      <!---Shop name heading-->
-      <center>
-        <h1>Cwtch<br>Coffee</h1>
-        <title>Cwtch Coffee</title>
-      </center>
-      <!---First section-->
+
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <div class="text-center">
+            <h1 style="font-size:3em">Cwtch<br>Coffee</h1>
+          </div>
+        </div>
+      </div>
+
       <div class="row">
         <div class="col">
           <div style="text-align: left;"></div>
-          <img src="homepage-image.png" width="700" height="800">
+          <img src="assets/homepage-image.png" width="400" height="500">
         </div>
-        <div class="col">
-          <h2>The newest coffee spot in Cardiff for hot drinks, light bites and fresh bakes! </h2>
-          <p>Get some goodies...</p>
-          <button type="button">Our Menu</button>
-        </div>
+        <div class="col text-white">
+          <div class="align-middle text-center pt-5">
+            <h2>&hearts; <br> The newest coffee spot in Cardiff <br> Hot drinks, light bites, fresh bakes and more. <br> Open 7 days a week. </h2>
+            <p>..Bring along your friends and family. <br> Children and furry friends welcome 🐾</p>
+            <button onclick="openmap()">Find Us!</button>
+          </div>
+        </div>  
       </div>
-       <!---3 image gallery-->
-    <div class="gallery-container">
-      
 
-        <!-- Define the Bootstrap container and margin at the top is number 6 -->
-  <div class="container mt-6">
-    <div class="row">
-      <div class="col">
-        <h1 class="text-center"> SWEET TREATS </MENU>
-        </h1>
-      </div>
-    </div>
-    <div class="row">
-      <!-- 
-        Target medium browser window sizes so when it's small like a phone each column is listed after 
-        each other on the page, and when bigger they are side by side
-      -->
+      <div class="row">
+        
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
-          <img src="1.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="assets/1.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
             <h5 class="card-title">Freshly Ground Coffee</h5>
             <p class="card-text">
             <ul class="menu-list">
@@ -94,8 +74,8 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
-          <img src="2.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="assets/2.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
             <h5 class="card-title">All Day Breakfast</h5>
             <p class="card-text">
             <ul class="menu-list">
@@ -106,8 +86,8 @@
       </div>
       <div class="col-md-4">
         <div class="card" style="width: 18rem;">
-          <img src="3.png" class="card-img-top" alt="...">
-          <div class="card-body">
+          <img src="assets/3.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
             <h5 class="card-title">Divine Desserts</h5>
             <p class="card-text">
             <ul class="menu-list">
@@ -116,20 +96,58 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="row mt-3">
+      </div>
+      <div class="row text-white">
+        <div class="col">
+          <div style="text-align: center" class="pt-5">
+            <h2> Cwtch Coffee <br>
+              72 Kimberley Road <br>
+              Cardiff <br>
+              CF23 5DN  <br>
+              &hearts;</h2>
+            <p> &#128231; infro@cwtchcoffee.com <br> &#9742; 02537 772553
+            </p>
 
-<!---Contact section-->
-<div class="row">
-  <div class="col">
-    <div style="text-align: left;"></div>
-    <h2> Cwtch Coffee <br>
-      72 Kimberley Road <br>
-      Cardiff CF23 5DN  </h2>
-    <p>hello@cwtchcoffee.com</p>
-  </div>
-  <div class="col">
-    <div style="text-align: right;"></div>
-    <img src="cafe.png" width="700" height="800">
-  </div>
-</div>
+          </div>
+        </div>
+        <div class="col">
+          <div style="text-align: right;"></div>
+          <img src="assets/cafe.png" width="400" height="500">
+        </div>
+      </div>
+      
+    </div>
+    <footer>
+      <div class="container-fluid mt-2">
+        <div class="row">
+          <div class="col">
+            <span class="fw-italic">&copy; Made by CFG Wales Team 5 2023 &hearts;</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="modal" tabindex="-1" role="dialog" id="mapmodal">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Location</h5>
+            <button type="button" onclick="closemap()" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <img src="assets/map.png" style="width: 100%" />
+          </div>
+          <div class="modal-footer">
+            <button type="button" onclick="closemap()" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
+</body>
